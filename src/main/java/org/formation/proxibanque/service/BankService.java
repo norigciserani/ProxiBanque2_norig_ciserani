@@ -65,6 +65,4 @@ public class BankService {
     public Optional<Compte> createCompte(Compte compte) {
         return Optional.of(compteRepository.save(compte));
     }
-
-
 }
